@@ -33,4 +33,4 @@ I use [showdownjs](https://github.com/showdownjs/showdown) as editor on my blog 
         converter = new showdown.Converter(),
         text      = '#hello, markdown!',
         html      = converter.makeHtml(text);
-After this step , it need a `markdown.css` to render Pages , so I catch the github style css file from github.com(it has some _style-css_ on Internet but not github-style ) ; Then I search the _github markdown_ of keywords on github , it already exist ...... , I fork the Usage from his , he must do the better than me , I suggest you clone his project .
+After this step , it need a `markdown.css` to render Pages , so I catch the github style css file from github.com( it has some __style-css__ on Internet but not github-style ) ; Then I search the __github markdown__ of keywords on github , it is already existed ......  So I fork the Usage that it must be the same method , I know he must do the better than me , I suggest you clone [his project](https://github.com/sindresorhus/github-markdown-css) .
