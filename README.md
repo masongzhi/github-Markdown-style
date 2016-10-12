@@ -2,7 +2,7 @@
 
 
 
-## Usage
+### Usage
 
 Import the `github-Markdown-style` file and add a `markdown-body` class to the container of your rendered Markdown and set a width for it. GitHub uses `980px` width and `45px` padding.
 
@@ -23,7 +23,7 @@ Import the `github-Markdown-style` file and add a `markdown-body` class to t
 </article>
 ```
 
-## about
+### about
 
 I use [showdownjs](https://github.com/showdownjs/showdown) as editor on my blog website , it is very simple to use __showndownjs__ like this follow :
 
@@ -34,3 +34,20 @@ I use [showdownjs](https://github.com/showdownjs/showdown) as editor on my blog 
         text      = '#hello, markdown!',
         html      = converter.makeHtml(text);
 After this step , it need a `markdown.css` to render Pages , so I catch the github style css file from github.com( it has some __style-css__ on Internet but not github-style ) ; Then I search the __github markdown__ of keywords on github , it is already existed ......  So I fork the Usage that it must be the same method , I know he must do the better than me , I suggest you clone [his project](https://github.com/sindresorhus/github-markdown-css) .
+
+
+
+## 2016/10/12
+
+Ok , I break my word , now I update this project , and I want to add a code highlight next time , because I found the Typora software has this features , and this time I don`t wanna check the GitHub has it or not on it , I just wanna make it ;
+
+### Update
+
+To solve the `blockquote` tag will wrap when the browser width narrow; 
+
+```css
+.container blockquote p{
+	white-space: nowrap;
+	overflow: auto;
+}
+```

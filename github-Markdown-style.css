@@ -63,6 +63,10 @@
     color: #777;
     border-left: 0.25em solid #ddd
 }
+.container blockquote p{
+	white-space: nowrap;
+	overflow: auto;
+}
 
 .markdown-body blockquote>:first-child {
     margin-top: 0
