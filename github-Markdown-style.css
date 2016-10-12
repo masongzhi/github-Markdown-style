@@ -61,12 +61,16 @@
 .markdown-body blockquote {
     padding: 0 1em;
     color: #777;
-    border-left: 0.25em solid #ddd
+    border-left: 0.25em solid #dddddd;
 }
-.container blockquote p{
+.markdown-body blockquote{
+	margin-left: 0;
+	margin-right: 0;
+}
+/* .container blockquote p{
 	white-space: nowrap;
 	overflow: auto;
-}
+} */
 
 .markdown-body blockquote>:first-child {
     margin-top: 0

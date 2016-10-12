@@ -34,17 +34,16 @@ I use [showdownjs](https://github.com/showdownjs/showdown) as editor on my blog 
         text      = '#hello, markdown!',
         html      = converter.makeHtml(text);
 After this step , it need a `markdown.css` to render Pages , so I catch the github style css file from github.com( it has some __style-css__ on Internet but not github-style ) ; Then I search the __github markdown__ of keywords on github , it is already existed ......  So I fork the Usage that it must be the same method , I know he must do the better than me , I suggest you clone [his project](https://github.com/sindresorhus/github-markdown-css) .
-**I never update this project in most cases**
 
 
 
 ## 2016/10/12
 
-Ok , I break my word , now I update this project , and I want to add a code highlight next time , because I found the Typora software has this features , and this time I don`t wanna check the GitHub has it or not on it , I just wanna make it ;
+Ok , I break my word , now I update this project .
 
 ### Update
 
-To solve the `blockquote` tag will wrap when the browser width narrow; 
+if you like use blockquote  to quote the command , you can cancel annotate for this follow ( it is annotate by default ); it solve the wrap in blockquote;
 
 ```css
 .container blockquote p{
@@ -52,3 +51,4 @@ To solve the `blockquote` tag will wrap when the browser width narrow;
 	overflow: auto;
 }
 ```
+
